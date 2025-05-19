@@ -39,3 +39,14 @@ else:
 # TC ==> O( 8N^6 + 4N^3 + 2N^8 + 38 )
 # Ignore constant values
 # O( N^8 )
+
+
+# Nested loops
+
+# O(N^2)
+for i in range(1,6):
+  for j in range(1,6):
+    print("*",end="")
+  print()
+
+print("A", "B", "C", sep="-")  # Output: A-B-C
